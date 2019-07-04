@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node server.js",
     "bundle": "cross-env NODE_ENV=production webpack -p --optimize-dedupe",
-    "test": "cross-env NODE_ENV=test mocha"
+    "test": "cross-env NODE_ENV=test mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "react",
@@ -63,6 +65,8 @@
     "react-router": "2.0.1",
     "react-router-redux": "^4.0.2",
     "react-translate-component": "^0.10.0",
-    "redux": "^3.3.1"
-  }
+    "redux": "^3.3.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
