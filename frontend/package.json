@@ -52,11 +52,11 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
-    "axios": "^0.9.1",
+    "axios": "^0.21.3",
     "counterpart": "^0.17.2",
     "deep-equal": "^1.0.1",
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-easy-form": "^1.1.0",
     "react-interpolate-component": "^0.8.1",
     "react-redux": "^4.4.1",
